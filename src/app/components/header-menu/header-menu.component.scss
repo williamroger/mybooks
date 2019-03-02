@@ -1,0 +1,10 @@
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+
+  &__logo {
+    width: 230px;
+  }
+}
