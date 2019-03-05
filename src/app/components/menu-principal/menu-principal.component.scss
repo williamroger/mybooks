@@ -1,0 +1,48 @@
+@import "../../../assets/scss/variables";
+
+.menuu{
+    .menuPrincipal{
+        position: absolute;
+        top: 150px;
+        left: 250px;
+        ul{
+            list-style: none;
+            li{
+                display: inline-block; 
+                a{ 
+                    margin-left: 20px;
+                    text-decoration: none;
+                    padding: 15px 50px;
+                    margin: auto;
+                    color: $cor-destaque;
+                    border: 2px solid $cor-destaque;
+                }
+    
+                a:hover{
+                    background-color: $cor-destaque;
+                    color: #fff;
+                }
+                .menuListaDesejo{
+                    border-right: none;
+                    border-top-left-radius: 6px;
+                    border-bottom-left-radius: 6px;
+                }
+                .menuBiblioteca{
+                    border-left: none;
+                    border-right: none;
+                }
+                .menuInformacoes{
+                    border-left: none;
+                    border-right: none;
+                }
+                .menuLidos{
+                    border-left: none;
+                    border-top-right-radius: 6px;
+                    border-bottom-right-radius: 6px;
+                    padding: 15px 70px;
+                }
+            } 
+        }
+    }
+}
+    
