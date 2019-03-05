@@ -1,0 +1,25 @@
+@import "../../../assets/scss/variables";
+
+h4{
+    color: $cor-texto;
+    margin-bottom: 0;
+}
+
+.head-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    border-bottom: 2px solid $cor-input;
+    padding-bottom: 10px;
+}
+
+a{
+    background-color: $cor-destaque;
+    color: white;
+    border: 0;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 0;
+    text-decoration: none;
+}
