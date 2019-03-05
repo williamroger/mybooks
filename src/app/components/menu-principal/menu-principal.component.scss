@@ -1,48 +1,38 @@
 @import "../../../assets/scss/variables";
 
-.menuu{
-    .menuPrincipal{
-        position: absolute;
-        top: 150px;
-        left: 250px;
-        ul{
-            list-style: none;
-            li{
-                display: inline-block; 
-                a{ 
-                    margin-left: 20px;
-                    text-decoration: none;
-                    padding: 15px 50px;
-                    margin: auto;
-                    color: $cor-destaque;
-                    border: 2px solid $cor-destaque;
-                }
-    
-                a:hover{
-                    background-color: $cor-destaque;
-                    color: #fff;
-                }
-                .menuListaDesejo{
-                    border-right: none;
-                    border-top-left-radius: 6px;
-                    border-bottom-left-radius: 6px;
-                }
-                .menuBiblioteca{
-                    border-left: none;
-                    border-right: none;
-                }
-                .menuInformacoes{
-                    border-left: none;
-                    border-right: none;
-                }
-                .menuLidos{
-                    border-left: none;
-                    border-top-right-radius: 6px;
-                    border-bottom-right-radius: 6px;
-                    padding: 15px 70px;
-                }
-            } 
-        }
+.menu-principal{
+  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border: 2px solid $cor-destaque;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    li {
+      width: 100%;
     }
+  }
+
+  &__item {
+    font-size: 1.500em;
+    text-decoration: none !important;
+    color: $cor-destaque;
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    transition: .4s ease;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .item-ativo {
+    background-color: $cor-destaque;
+    color: #fff;
+  }
 }
-    
+
