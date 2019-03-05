@@ -29,4 +29,14 @@
         margin-bottom: .2rem;
     }
 
+    &__buttonAdd{
+        color: #fff;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: $cor-form;
+        font-size: .8em;
+        padding: 5px 7px;
+        border-radius: 3px;
+    }
 }
