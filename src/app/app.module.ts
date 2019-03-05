@@ -6,6 +6,7 @@ import { HeaderMenuComponent } from './components/header-menu/header-menu.compon
 import { UserBoxComponent } from './components/header-menu/user-box/user-box.component';
 import { MenuPrincipalComponent } from './components/menu-principal/menu-principal.component';
 import { HeaderTabComponent } from './components/header-tab/header-tab.component';
+import { LivroComponent } from './components/livro/livro.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { HeaderTabComponent } from './components/header-tab/header-tab.component
     HeaderMenuComponent,
     UserBoxComponent,
     MenuPrincipalComponent,
-    HeaderTabComponent
+    HeaderTabComponent,
+    LivroComponent
   ],
   imports: [
     BrowserModule
