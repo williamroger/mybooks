@@ -1,0 +1,16 @@
+.button-primary {
+  background-color: $cor-destaque;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  padding: 14px 18px;
+  margin: 0;
+  text-decoration: none !important;
+  font-size: 1.000em;
+  text-transform: uppercase;
+  transition: .4s ease;
+
+  &:hover {
+    background-color: darken($cor-destaque, 20%);
+  }
+}
