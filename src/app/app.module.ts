@@ -7,6 +7,11 @@ import { UserBoxComponent } from './components/header-menu/user-box/user-box.com
 import { MenuPrincipalComponent } from './components/menu-principal/menu-principal.component';
 import { HeaderTabComponent } from './components/header-tab/header-tab.component';
 import { LivroComponent } from './components/livro/livro.component';
+import { WishlistComponent } from './components/wishlist/wishlist.component';
+import { LibraryBooksComponent } from './components/library-books/library-books.component';
+import { InformationComponent } from './components/information/information.component';
+import { ReadComponent } from './components/read/read.component';
+import { routing } from './app.routing';
 
 @NgModule({
   declarations: [
@@ -15,10 +20,15 @@ import { LivroComponent } from './components/livro/livro.component';
     UserBoxComponent,
     MenuPrincipalComponent,
     HeaderTabComponent,
-    LivroComponent
+    LivroComponent,
+    WishlistComponent,
+    LibraryBooksComponent,
+    InformationComponent,
+    ReadComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
