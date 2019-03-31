@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Book } from '../livro/book';
+import { Book } from '../livro/book.model';
 import { ListadesejosService } from './listadesejos.service';
 @Component({
   selector: 'app-wishlist',

@@ -1,11 +1,11 @@
 <div class="book">
-  <div class="book__image">
+  <div class="book__image" [ngStyle]="{'background-image': 'url(' + book.imagePath + ')'}">
     
   </div>
   <div class="book__info">
-    <h1 class="book__title">{{book.title}}</h1>
-    <p class="book__author">{{book.author}}</p>
-    <p class="book__edition">{{book.edition}}</p>
+    <h1 class="book__title">{{book.titulo}}</h1>
+    <p class="book__author">{{book.autor}}</p>
+    <p class="book__edition">{{book.edicao}}</p>
     <a href="#" class="book__buttonAdd">Adicionar a biblioteca</a>
   </div>
 </div>
