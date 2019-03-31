@@ -1,6 +1,8 @@
 @import "../../../../assets/scss/variables";
 
 .user-box {
+  position: relative;
+
   &__name {
     font-size: 1.250em;
     text-decoration: none !important;
@@ -11,7 +13,8 @@
     background-color: $cor-texto;
     border-radius: 5px;
     padding: 10px;
-    display: none;
+    position: absolute;
+    width: 100%;
 
     ul {
       padding-left: 0;
