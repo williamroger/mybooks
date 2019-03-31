@@ -14,6 +14,7 @@ import { InformationComponent } from './components/information/information.compo
 import { ReadComponent } from './components/read/read.component';
 import { routing } from './app.routing';
 import { ListadesejosService } from './components/wishlist/listadesejos.service';
+import { LibrarybooksService } from './components/library-books/librarybooks.service';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,7 @@ import { ListadesejosService } from './components/wishlist/listadesejos.service'
     routing,
     HttpClientModule
   ],
-  providers: [ListadesejosService],
+  providers: [ListadesejosService, LibrarybooksService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
