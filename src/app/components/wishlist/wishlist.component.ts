@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Book } from '../livro/book';
+import { ListadesejosService } from './listadesejos.service';
 @Component({
   selector: 'app-wishlist',
   templateUrl: './wishlist.component.html',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WishlistComponent implements OnInit {
 
-  constructor() { }
+  listaDesejos: Book[];
+
+  constructor(private listadesejosService: ListadesejosService) { }
 
   ngOnInit() {
+    this.listadesejosService.getListaDesejos()
+      .subscribe(data => this.listaDesejos = data);
   }
 
 }
