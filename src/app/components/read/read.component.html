@@ -1,1 +1,7 @@
 <h2>Lidos</h2>
+
+<div class="row">
+    <div class="col-6 mb-4" *ngFor="let book of read">
+        <app-livro [book]="book"></app-livro>
+    </div> 
+</div>

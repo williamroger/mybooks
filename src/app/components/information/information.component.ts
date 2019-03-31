@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Book } from '../livro/book.model';
+import { InformationService } from './information.service';
 
 @Component({
   selector: 'app-information',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InformationComponent implements OnInit {
 
-  constructor() { }
+  estouLendo: Book[];
+  emprestados: Book[];
+
+  constructor(private informationService: InformationService) { }
 
   ngOnInit() {
+    this.informationService.getInformation().subscribe(data => this.estouLendo = data);
+    this.informationService.getInformation().subscribe(data => this.emprestados = data);
   }
 
 }

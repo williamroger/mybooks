@@ -357,6 +357,76 @@
             "imagePath": "assets/images/books/android-com-android-studio.png"
         }
     ],
-  "informacoes": [],
-  "lidos": []
+  "informacoes": [
+
+    {
+        "titulo": "As Aventuras na Netoland Com Luccas Neto",
+        "autor": "Neto,Luccas",
+        "edicao": "1",
+        "imagePath": "assets/images/books/lucas-neto.jpg"
+    },
+    {
+        "titulo": "Textos Cruéis Demais Para Serem Lidos Rapidamente",
+        "autor": "TCD - Globo",
+        "edicao": "1",
+        "imagePath": "assets/images/books/textos-crueis.jpg"
+    },
+    {
+        "titulo": "Pai Rico, Pai Pobre - Edição de 20 Anos",
+        "autor": "Kiyosaki,Robert T.",
+        "edicao": "4",
+        "imagePath": "assets/images/books/pai-rico.png"
+    },
+    {
+        "titulo": "Holocausto Brasileiro - Vida, Genocídio e 60 Mil Mortes No Maior Hospício do Brasil",
+        "autor": "Arbex, Daniela",
+        "edicao": "1",
+        "imagePath": "assets/images/books/holocausto-brasileiro.jpg"
+    },
+    {
+        "titulo": "A História do Brasil Para Quem Tem Pressa",
+        "autor": "Costa, Marcos",
+        "edicao": "1",
+        "imagePath": "assets/images/books/a-historia-do-brasil.png"
+    }
+
+  ],
+  "lidos": [
+        {
+            "titulo": "Furacão Anitta",
+            "autor": "Dias, Leo",
+            "edicao": "1",
+            "imagePath": "assets/images/books/furacao-anitta.jpg"
+        },
+        {
+            "titulo": "Java - Como Programar - 10ª Ed. 2016*",
+            "autor": "Deitel",
+            "edicao": "10",
+            "imagePath": "assets/images/books/java-como-programar.jpg"
+        },
+        {
+            "titulo": "Use a Cabeça Java",
+            "autor": "Sierra,Kathy",
+            "edicao": "2",
+            "imagePath": "assets/images/books/use-a-cabeca-java.jpg"
+        },
+        {
+            "titulo": "Java Ensino Didatico - Desenvolvimento E Implementação De Aplicações",
+            "autor": "Editora Érica",
+            "edicao": "1",
+            "imagePath": "assets/images/books/java-ensino-didatico.jpg"
+        },
+        {
+            "titulo": "Android: Como programar",
+            "autor": "Deitel,Paul; Deitel,Harvey; Deitel,Abbey",
+            "edicao": "1",
+            "imagePath": "assets/images/books/android-deitel.jpg"
+        },
+        {
+            "titulo": "Android 6 - Para Programadores - Uma Abordagem Baseada Em Aplicativos",
+            "autor": "Deitel,Paul",
+            "edicao": "3",
+            "imagePath": "assets/images/books/android-6.jpg"
+        }
+  ]
 }
