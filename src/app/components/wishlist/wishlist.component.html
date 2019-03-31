@@ -1,5 +1,7 @@
 <h2>Lista de Desejos</h2>
-<div *ngFor="let book of listaDesejos">
-  <app-livro [book]="book"></app-livro>
+<div class="row">
+  <div class="col-6 mb-4" *ngFor="let book of listaDesejos">
+    <app-livro [book]="book"></app-livro>
+  </div>
 </div>
 

@@ -6,23 +6,16 @@
     padding: 15px;
     border-radius: 10px;
     display: flex;
-    overflow: hidden;
-    position: relative;
 
     &__image{
-        width: 200px;
         margin-right: 20px;
-        //background-image: url("../../../assets/images/book-default.png");
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;  
-        left: 50%;
-        top: 50%;
-        margin-top: -150px;
+        img {
+            width: 140px;
+        }
     }
 
     &__title{
-        font-size: 1.500em;
+        font-size: 1.300em;
         color: #fff;
         font-weight: 600;
     }
@@ -34,7 +27,7 @@
         margin-bottom: .2rem;
     }
 
-    &__buttonAdd{
+    &__buttonAdd {
         color: #fff;
         text-decoration: none;
         text-align: center;
@@ -43,5 +36,9 @@
         font-size: .8em;
         padding: 5px 7px;
         border-radius: 3px;
+    }
+
+    small {
+        color: #fff;
     }
 }
