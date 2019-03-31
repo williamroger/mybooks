@@ -1,79 +1,79 @@
 {
-    "desejos": [
-        {
-            "titulo": "A Menina que Roubava Livros",
-            "autor": "Zusak, Markus",
-            "edicao": "1",
-            "imagePath": "assets/images/books/a-meninina-que-roubava-livros.jpg"
-        },
-        {
-            "titulo": "As Crônicas De Nárnia - Volume Único",
-            "autor": "Lewis, Clive Staples",
-            "edicao": "1",
-            "imagePath": "assets/images/books/cronicas-de-narnia.jpg"
-        },
-        {
-            "titulo": "A Fúria Dos Reis - As Crônicas de Gelo e Fogo - Livro Dois - Edição Comemorativa",
-            "autor": "Martin,George R. R.",
-            "edicao": "1",
-            "imagePath": "assets/images/books/a-furia-dos-reis.png"
-        },
-        {
-            "titulo": "A Tormenta de Espadas - As Crônicas de Gelo e Fogo - Livro Três - Edição Comemorativa",
-            "autor": "Martin,George R. R.",
-            "edicao": "1",
-            "imagePath": "assets/images/books/a-tormenta-das-espadas.png"
-        },
-        {
-            "titulo": "O Festim Dos Corvos - As Crônicas de Gelo e Fogo - Livro Quatro - Edição Comemorativa",
-            "autor": "Martin,George R. R.",
-            "edicao": "1",
-            "imagePath": "assets/images/books/o-festim-dos-corvos.png"
-        },
-        {
-            "titulo": "A Dança Dos Dragões - As Crônicas de Gelo e Fogo - Livro Cinco - Edição Comemorativa",
-            "autor": "Martin,George R. R.",
-            "edicao": "1",
-            "imagePath": "assets/images/books/a-danca-dos-dragoes.png"
-        },
-        {
-            "titulo": "O Nome do Vento - A Crônica do Matador Rei - Primeiro Dia",
-            "autor": "Rothfuss,Patrick",
-            "edicao": "1",
-            "imagePath": "assets/images/books/nome-do-vento.jpg"
-        },
-        {
-            "titulo": "Java Para Leigos",
-            "autor": "Burd,Barry",
-            "edicao": "1",
-            "imagePath": "assets/images/books/java-para-leigos.jpg"
-        },
-        {
-            "titulo": "Código Limpo Habilidades Práticas do Agile Software - Edição Revisada",
-            "autor": "Martin,Robert Cecil",
-            "edicao": "1",
-            "imagePath": "assets/images/books/codigo-limpo.jpg"
-        },
-        {
-            "titulo": "Cinquenta Tons de Cinza",
-            "autor": "James,E. L.",
-            "edicao": "1",
-            "imagePath": "assets/images/books/50-tons-cinza.jpg"
-        },
-        {
-            "titulo": "Cinquenta Tons de Liberdade",
-            "autor": "James,E. L.",
-            "edicao": "1",
-            "imagePath": "assets/images/books/50-tons-liberdade.jpg"
-        },
-        {
-            "titulo": "Cinquenta Tons Mais Escuros",
-            "autor": "James,E. L.",
-            "edicao": "1",
-            "imagePath": "assets/images/books/50-tons-escuros.jpg"
-        }
+  "desejos": [
+    {
+        "titulo": "A Menina que Roubava Livros",
+        "autor": "Zusak, Markus",
+        "edicao": "1",
+        "imagePath": "assets/images/books/a-meninina-que-roubava-livros.jpg"
+    },
+    {
+        "titulo": "As Crônicas De Nárnia - Volume Único",
+        "autor": "Lewis, Clive Staples",
+        "edicao": "1",
+        "imagePath": "assets/images/books/cronicas-de-narnia.jpg"
+    },
+    {
+        "titulo": "A Fúria Dos Reis - As Crônicas de Gelo e Fogo - Livro Dois - Edição Comemorativa",
+        "autor": "Martin,George R. R.",
+        "edicao": "1",
+        "imagePath": "assets/images/books/a-furia-dos-reis.png"
+    },
+    {
+        "titulo": "A Tormenta de Espadas - As Crônicas de Gelo e Fogo - Livro Três - Edição Comemorativa",
+        "autor": "Martin,George R. R.",
+        "edicao": "1",
+        "imagePath": "assets/images/books/a-tormenta-das-espadas.png"
+    },
+    {
+        "titulo": "O Festim Dos Corvos - As Crônicas de Gelo e Fogo - Livro Quatro - Edição Comemorativa",
+        "autor": "Martin,George R. R.",
+        "edicao": "1",
+        "imagePath": "assets/images/books/o-festim-dos-corvos.png"
+    },
+    {
+        "titulo": "A Dança Dos Dragões - As Crônicas de Gelo e Fogo - Livro Cinco - Edição Comemorativa",
+        "autor": "Martin,George R. R.",
+        "edicao": "1",
+        "imagePath": "assets/images/books/a-danca-dos-dragoes.png"
+    },
+    {
+        "titulo": "O Nome do Vento - A Crônica do Matador Rei - Primeiro Dia",
+        "autor": "Rothfuss,Patrick",
+        "edicao": "1",
+        "imagePath": "assets/images/books/nome-do-vento.jpg"
+    },
+    {
+        "titulo": "Java Para Leigos",
+        "autor": "Burd,Barry",
+        "edicao": "1",
+        "imagePath": "assets/images/books/java-para-leigos.jpg"
+    },
+    {
+        "titulo": "Código Limpo Habilidades Práticas do Agile Software - Edição Revisada",
+        "autor": "Martin,Robert Cecil",
+        "edicao": "1",
+        "imagePath": "assets/images/books/codigo-limpo.jpg"
+    },
+    {
+        "titulo": "Cinquenta Tons de Cinza",
+        "autor": "James,E. L.",
+        "edicao": "1",
+        "imagePath": "assets/images/books/50-tons-cinza.jpg"
+    },
+    {
+        "titulo": "Cinquenta Tons de Liberdade",
+        "autor": "James,E. L.",
+        "edicao": "1",
+        "imagePath": "assets/images/books/50-tons-liberdade.jpg"
+    },
+    {
+        "titulo": "Cinquenta Tons Mais Escuros",
+        "autor": "James,E. L.",
+        "edicao": "1",
+        "imagePath": "assets/images/books/50-tons-escuros.jpg"
+    }
     ],
-    "biblioteca": [
+  "biblioteca": [
         {
             "titulo": "Furacão Anitta",
             "autor": "Dias, Leo",
@@ -357,6 +357,6 @@
             "imagePath": "assets/images/books/android-com-android-studio.png"
         }
     ],
-    "informacoes": [],
-    "lidos": []
+  "informacoes": [],
+  "lidos": []
 }
