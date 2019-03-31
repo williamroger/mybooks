@@ -1,6 +1,6 @@
 <div class="user-box">
-  <a href="#" class="user-box__name">{{userName}} <img src="{{iconpath}}"></a>
-  <div class="user-box__options">
+  <a href="#" class="user-box__name" (click)="showUserOption()">{{userName}} <img src="{{iconpath}}"></a>
+  <div class="user-box__options" *ngIf="toggleUserOption">
     <ul>
       <li><a href="#">Meus dados</a></li>
       <li><a href="#">Sair</a></li>

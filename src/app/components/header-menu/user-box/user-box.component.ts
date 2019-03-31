@@ -8,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class UserBoxComponent implements OnInit {
   userName = "William Roger";
   iconpath = 'assets/images/arrow-bottom.svg';
+  toggleUserOption = false;
+
   constructor() { }
 
   ngOnInit() {
   }
 
+  showUserOption() {
+    this.toggleUserOption = !this.toggleUserOption;
+  }
 }
