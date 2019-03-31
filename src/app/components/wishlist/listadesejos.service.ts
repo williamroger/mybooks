@@ -12,6 +12,6 @@ export class ListadesejosService {
   constructor(private http: HttpClient) { }
 
   getListaDesejos() {
-    return this.http.get<Book[]>(MYBOOKS_API);
+    return this.http.get<Book[]>(`${MYBOOKS_API}/desejos`);
   }
 }
