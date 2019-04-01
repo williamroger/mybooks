@@ -7,7 +7,7 @@ import { InformationComponent } from './components/information/information.compo
 import { ReadComponent } from './components/read/read.component';
 
 const APP_ROUTES: Routes = [
-    {path: '', component: WishlistComponent},
+    {path: 'listadedesejos', component: WishlistComponent},
     {path: 'biblioteca', component: LibraryBooksComponent},
     {path: 'informacoes', component: InformationComponent},
     {path: 'lidos', component: ReadComponent}
