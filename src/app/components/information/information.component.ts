@@ -15,8 +15,8 @@ export class InformationComponent implements OnInit {
   constructor(private informationService: InformationService) { }
 
   ngOnInit() {
-    this.informationService.getInformation().subscribe(data => this.estouLendo = data);
-    this.informationService.getInformation().subscribe(data => this.emprestados = data);
+    this.informationService.getLendo().subscribe(data => this.estouLendo = data);
+    this.informationService.getEmprestado().subscribe(data => this.emprestados = data);
   }
 
 }

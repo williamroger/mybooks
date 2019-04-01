@@ -10,7 +10,11 @@ export class InformationService {
 
   constructor(private http: HttpClient) { }
 
-  getInformation() {
-    return this.http.get<Book[]>(`${MYBOOKS_API}/informacoes`);
+  getLendo() {
+    return this.http.get<Book[]>(`${MYBOOKS_API}/lendo`);
+  }
+
+  getEmprestado() {
+    return this.http.get<Book[]>(`${MYBOOKS_API}/emprestado`);
   }
 }

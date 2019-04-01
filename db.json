@@ -357,39 +357,63 @@
             "imagePath": "assets/images/books/android-com-android-studio.png"
         }
     ],
-  "informacoes": [
-
+  "lendo": [
+        {
+            "titulo": "Textos Cruéis Demais Para Serem Lidos Rapidamente",
+            "autor": "TCD - Globo",
+            "edicao": "1",
+            "imagePath": "assets/images/books/textos-crueis.jpg"
+        },
+        {
+            "titulo": "Pai Rico, Pai Pobre - Edição de 20 Anos",
+            "autor": "Kiyosaki,Robert T.",
+            "edicao": "4",
+            "imagePath": "assets/images/books/pai-rico.png"
+        },
+        {
+            "titulo": "Holocausto Brasileiro - Vida, Genocídio e 60 Mil Mortes No Maior Hospício do Brasil",
+            "autor": "Arbex, Daniela",
+            "edicao": "1",
+            "imagePath": "assets/images/books/holocausto-brasileiro.jpg"
+        },
+        {
+            "titulo": "A História do Brasil Para Quem Tem Pressa",
+            "autor": "Costa, Marcos",
+            "edicao": "1",
+            "imagePath": "assets/images/books/a-historia-do-brasil.png"
+        }
+  ],
+  "emprestado": [
     {
-        "titulo": "As Aventuras na Netoland Com Luccas Neto",
-        "autor": "Neto,Luccas",
+        "titulo": "Furacão Anitta",
+        "autor": "Dias, Leo",
         "edicao": "1",
-        "imagePath": "assets/images/books/lucas-neto.jpg"
+        "imagePath": "assets/images/books/furacao-anitta.jpg"
     },
     {
-        "titulo": "Textos Cruéis Demais Para Serem Lidos Rapidamente",
-        "autor": "TCD - Globo",
+        "titulo": "A Primeira Guerra Mundial",
+        "autor": "Gilbert,Martin",
         "edicao": "1",
-        "imagePath": "assets/images/books/textos-crueis.jpg"
+        "imagePath": "assets/images/books/primeira-guerra.jpg"
     },
     {
-        "titulo": "Pai Rico, Pai Pobre - Edição de 20 Anos",
-        "autor": "Kiyosaki,Robert T.",
-        "edicao": "4",
-        "imagePath": "assets/images/books/pai-rico.png"
+        "titulo": "Conexão Nazista",
+        "autor": "Black, Edwin",
+        "edicao": "1",
+        "imagePath": "assets/images/books/conexao-nazista.jpg"
     },
     {
-        "titulo": "Holocausto Brasileiro - Vida, Genocídio e 60 Mil Mortes No Maior Hospício do Brasil",
-        "autor": "Arbex, Daniela",
+        "titulo": "A História do Mundo Para Quem Tem Pressa - Mais de 5000 Anos de História Resumidos Em 200 Páginas",
+        "autor": "Marriot,Emma",
         "edicao": "1",
-        "imagePath": "assets/images/books/holocausto-brasileiro.jpg"
+        "imagePath": "assets/images/books/a-historia-do-mundo-pra-quem-tem-pressa.png"
     },
     {
-        "titulo": "A História do Brasil Para Quem Tem Pressa",
-        "autor": "Costa, Marcos",
-        "edicao": "1",
-        "imagePath": "assets/images/books/a-historia-do-brasil.png"
+        "titulo": "Javascript - o Guia Definitivo",
+        "autor": "Flanagan, David",
+        "edicao": "6",
+        "imagePath": "assets/images/books/java-script-o-guia-definitivo.jpg"
     }
-
   ],
   "lidos": [
         {
