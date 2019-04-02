@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Book } from '../livro/book.model';
 import { ListadesejosService } from './listadesejos.service';
+
 @Component({
   selector: 'app-wishlist',
   templateUrl: './wishlist.component.html',
@@ -9,6 +10,8 @@ import { ListadesejosService } from './listadesejos.service';
 export class WishlistComponent implements OnInit {
 
   listaDesejos: Book[];
+  tituloFilho: string = "Testando valor";
+  botaoFilho: string = "Testando botão";
 
   constructor(private listadesejosService: ListadesejosService) { }
 
