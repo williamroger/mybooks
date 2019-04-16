@@ -15,6 +15,7 @@ import { ReadComponent } from './components/read/read.component';
 import { routing } from './app.routing';
 import { ListadesejosService } from './components/wishlist/listadesejos.service';
 import { LibrarybooksService } from './components/library-books/librarybooks.service';
+import { FormsearchbookComponent } from './components/wishlist/formsearchbook/formsearchbook.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { LibrarybooksService } from './components/library-books/librarybooks.ser
     WishlistComponent,
     LibraryBooksComponent,
     InformationComponent,
-    ReadComponent
+    ReadComponent,
+    FormsearchbookComponent
   ],
   imports: [
     BrowserModule,
