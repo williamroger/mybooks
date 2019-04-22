@@ -3,14 +3,27 @@
   color: white;
   border: 0;
   border-radius: 5px;
-  padding: 14px 18px;
+  padding: .5rem;
   margin: 0;
   text-decoration: none !important;
-  font-size: 1.000em;
+  font-size: 1em;
   text-transform: uppercase;
-  transition: .4s ease;
+  transition: .2s all ease;
 
   &:hover {
-    background-color: darken($color-main, 20%);
+    background-color: darken($color-main, 10%);
+    color: white !important;
+  }
+}
+
+.button-inline {
+  color: $color-main;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-decoration: none !important;
+  transition: .2s all ease;
+
+  &:hover {
+    color: #fff;
   }
 }
