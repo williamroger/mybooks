@@ -6,11 +6,11 @@
   &__name {
     font-size: 1.250em;
     text-decoration: none !important;
-    color: $cor-texto;
+    color: $color-secondary;
   }
 
   &__options {
-    background-color: $cor-texto;
+    background-color: $color-secondary;
     border-radius: 5px;
     padding: 10px;
     position: absolute;
@@ -22,12 +22,12 @@
       margin: 0;
 
       li:first-child {
-        border-bottom: 1px solid $cor-fundo;
+        border-bottom: 1px solid $background-primary;
       }
     }
 
     a {
-      color: $cor-fundo;
+      color: $background-primary;
       text-decoration: none !important;
       display: inline-flex;
       font-size: 1.125em;

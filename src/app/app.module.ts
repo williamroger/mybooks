@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 
+import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { AppComponent } from './app.component';
 import { HeaderMenuComponent } from './components/header-menu/header-menu.component';
 import { UserBoxComponent } from './components/header-menu/user-box/user-box.component';
@@ -34,7 +35,8 @@ import { FormsearchbookComponent } from './components/wishlist/formsearchbook/fo
   imports: [
     BrowserModule,
     routing,
-    HttpClientModule
+    HttpClientModule,
+    AngularFontAwesomeModule
   ],
   providers: [ListadesejosService, LibrarybooksService],
   bootstrap: [AppComponent]

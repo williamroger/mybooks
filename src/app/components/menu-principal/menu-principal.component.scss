@@ -7,7 +7,7 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    border: 2px solid $cor-destaque;
+    border: 2px solid $color-main;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 
@@ -19,7 +19,7 @@
   &__item {
     font-size: 1.500em;
     text-decoration: none !important;
-    color: $cor-destaque;
+    color: $color-main;
     display: block;
     text-align: center;
     width: 100%;
@@ -31,7 +31,7 @@
   }
 
   .item-ativo {
-    background-color: $cor-destaque;
+    background-color: $color-main;
     color: #fff;
   }
 }

@@ -1,5 +1,5 @@
 .button-primary {
-  background-color: $cor-destaque;
+  background-color: $color-main;
   color: white;
   border: 0;
   border-radius: 5px;
@@ -11,6 +11,6 @@
   transition: .4s ease;
 
   &:hover {
-    background-color: darken($cor-destaque, 20%);
+    background-color: darken($color-main, 20%);
   }
 }

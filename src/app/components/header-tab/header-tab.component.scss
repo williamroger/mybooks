@@ -6,11 +6,11 @@
   align-items: center;
   margin-top: 25px;
   margin-bottom: 35px;
-  border-bottom: 2px solid $cor-input;
+  border-bottom: 2px solid $background-card;
   padding-bottom: 10px;
 
   &__titulo {
-    color: $cor-texto;
+    color: $color-secondary;
     margin-bottom: 0;
     font-size: 1.500em;
   }
