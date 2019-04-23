@@ -49,4 +49,38 @@
     color: $yellow;
     font-size: .9rem !important;
   }
+
+  &__result-list{
+    padding: 0;
+    margin: 0 0 2rem 0;
+    list-style-type: none;
+
+    li {
+      display: flex;
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  &__result-book-image {
+    margin-right: 20px;
+    img {
+        width: 140px;
+    }
+  }
+
+  &__result-book-title {
+    color: #fff;
+    font-size: 1.4rem;
+  }
+
+  &__result-book-info small {
+    font-size: 1rem;
+    color: $color-secondary;
+  }
+
+  &__result-book-author,
+  &__result-book-edition {
+    color: #fff;
+    font-size: 1.1rem;
+  }
 }

@@ -27,3 +27,19 @@
     color: #fff;
   }
 }
+
+.button-outline {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: .9rem;
+  border: 1px solid $color-main;
+  border-radius: 5px;
+  text-decoration: none !important;
+  padding: .3rem 1rem;
+  transition: .2s all ease;
+
+  &:hover {
+    background-color: $color-main;
+    color: #fff;
+  }
+}
