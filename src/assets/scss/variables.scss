@@ -7,3 +7,22 @@ $green: #59E542;
 $red: #E7374C;
 $yellow: #C0E724;
 
+// Provisório
+.label-info {
+  padding: .3rem 1rem;
+  color: $background-primary;
+  text-transform: uppercase;
+  font-size: .9rem;
+  border-radius: 5px;
+
+  &--reading {
+    background-color: $green;
+  }
+
+  &--borrowed {
+    background-color: $yellow;
+  }
+  &--expired {
+    background-color: $red;
+  }
+}

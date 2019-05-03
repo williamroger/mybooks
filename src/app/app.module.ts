@@ -18,6 +18,7 @@ import { ListadesejosService } from './components/wishlist/listadesejos.service'
 import { LibrarybooksService } from './components/library-books/librarybooks.service';
 import { FormsearchbookComponent } from './components/wishlist/formsearchbook/formsearchbook.component';
 import { FormaddbookComponent } from './components/wishlist/formaddbook/formaddbook.component';
+import { FormDetailsBookComponent } from './components/library-books/formdetailsbook/formdetailsbook.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FormaddbookComponent } from './components/wishlist/formaddbook/formaddb
     InformationComponent,
     ReadComponent,
     FormsearchbookComponent,
-    FormaddbookComponent
+    FormaddbookComponent,
+    FormDetailsBookComponent
   ],
   imports: [
     BrowserModule,
