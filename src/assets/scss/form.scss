@@ -29,6 +29,10 @@
     }
   }
 
+  label {
+    color: $color-secondary;
+  }
+
   &__input {
     background-color: $background-card;
     border: 0;

@@ -17,6 +17,7 @@ import { routing } from './app.routing';
 import { ListadesejosService } from './components/wishlist/listadesejos.service';
 import { LibrarybooksService } from './components/library-books/librarybooks.service';
 import { FormsearchbookComponent } from './components/wishlist/formsearchbook/formsearchbook.component';
+import { FormaddbookComponent } from './components/wishlist/formaddbook/formaddbook.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FormsearchbookComponent } from './components/wishlist/formsearchbook/fo
     LibraryBooksComponent,
     InformationComponent,
     ReadComponent,
-    FormsearchbookComponent
+    FormsearchbookComponent,
+    FormaddbookComponent
   ],
   imports: [
     BrowserModule,
