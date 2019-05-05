@@ -33,6 +33,12 @@
     color: $color-secondary;
   }
 
+  textarea:disabled,
+  input:disabled {
+    background-color: $background-form;
+    border: 1px solid $color-secondary;
+  }
+
   &__input {
     background-color: $background-card;
     border: 0;
@@ -45,7 +51,6 @@
     &:focus {
       background-color: $background-card;
       border: 0;
-      
     }
   }
 
