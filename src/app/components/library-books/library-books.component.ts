@@ -10,6 +10,8 @@ import { LibrarybooksService } from './librarybooks.service';
 export class LibraryBooksComponent implements OnInit {
 
   libraryBooks: Book[];
+  headerTitle: string = "Todos os meus livros";
+  textButton: string = "Adicionar novo livro";
 
   constructor(private libraryBooksService: LibrarybooksService) { }
 

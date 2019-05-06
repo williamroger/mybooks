@@ -10,8 +10,8 @@ import { ListadesejosService } from './listadesejos.service';
 export class WishlistComponent implements OnInit {
 
   listaDesejos: Book[];
-  tituloFilho: string = "Testando valor";
-  botaoFilho: string = "Testando botão";
+  headerTitle: string = "Livros que desejo comprar";
+  buttonText: string = "Adicionar novo livro";
 
   constructor(private listadesejosService: ListadesejosService) { }
 

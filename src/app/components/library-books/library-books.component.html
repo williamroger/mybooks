@@ -1,8 +1,8 @@
-<h2>Biblioteca</h2>
-<div class="row">
-    <div class="col-6 mb-4" *ngFor="let book of libraryBooks">
-        <app-livro [book]="book"></app-livro>
-    </div> 
-</div>
+<app-header-tab [title]="headerTitle" [textButton]="textButton"></app-header-tab>
 <app-formdetailsbook></app-formdetailsbook>
 <app-formlendbook></app-formlendbook>
+<div class="row">
+  <div class="col-6 mb-4" *ngFor="let book of libraryBooks">
+    <app-livro [book]="book"></app-livro>
+  </div> 
+</div>

@@ -6,8 +6,8 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./header-tab.component.scss']
 })
 export class HeaderTabComponent implements OnInit {
-  @Input() titulo: string;
-  @Input() textoBotao: string;
+  @Input() title: string;
+  @Input() textButton: string;
 
   constructor() { }
 
