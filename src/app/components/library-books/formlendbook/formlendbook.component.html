@@ -1,0 +1,84 @@
+<form action="" class="form-ui">
+  <div class="row">
+    <div class="col-12">
+      <div class="row">
+        <div class="col-3">
+          <h3 class="form-ui__title">Emprestar do Livro</h3>
+        </div>
+        <div class="col-9">
+          <div class="form-ui__header">
+            <div>
+              <span class="label-info label-info--expired mr-4">Prazo Expirou</span>
+            </div>
+            <a href="#" class="form-ui__button-close">
+              <fa name="close" class="icon"></fa>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-3">
+      <p>imagem livro</p>
+    </div>
+    <div class="col-9">
+      <div class="row">
+        <div class="col-12">
+          <div class="form-group">
+            <label for="titulo">Título:</label>
+            <input type="text" class="form-control form-ui__input" id="titulo" required autocomplete="off">
+            <small class="form-text form-ui__message">Você precisa informar o título do livro.</small>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-group">
+            <label for="responsavel">Responsável:</label>
+            <input type="text" name="responsavel" id="responsavel" class="form-control form-ui__input" required
+              autocomplete="off">
+            <small class="form-text form-ui__message">Você precisa informar o nome do responsável.</small>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="form-group">
+            <label for="celular">Celular:</label>
+            <input type="text" name="celular" id="celular" class="form-control form-ui__input" autocomplete="off">
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email" class="form-control form-ui__input" autocomplete="off">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="form-group">
+            <label for="data-emprestimo">Data do Empréstimo:</label>
+            <input type="text" name="data-emprestimo" id="data-emprestimo" class="form-control form-ui__input" autocomplete="off">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="form-group">
+            <label for="data-devolucao">Devolver até:</label>
+            <input type="text" name="data-devolucao" id="data-devolucao" class="form-control form-ui__input" autocomplete="off">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="form-group">
+            <label for="data-devolvido">Data de Devolução:</label>
+            <input type="text" name="data-devolvido" id="data-devolvido" class="form-control form-ui__input" autocomplete="off">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-end">
+    <div class="col-6 ">
+      <label class="d-block">&nbsp;</label>
+      <!-- Confirmar Recebimento -->
+      <button type="submit" class="button-primary px-5 pull-right">Emprestar Livro</button>
+    </div>
+  </div>
+</form>

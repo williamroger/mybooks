@@ -19,6 +19,7 @@ import { LibrarybooksService } from './components/library-books/librarybooks.ser
 import { FormsearchbookComponent } from './components/wishlist/formsearchbook/formsearchbook.component';
 import { FormaddbookComponent } from './components/wishlist/formaddbook/formaddbook.component';
 import { FormDetailsBookComponent } from './components/library-books/formdetailsbook/formdetailsbook.component';
+import { FormlendbookComponent } from './components/library-books/formlendbook/formlendbook.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FormDetailsBookComponent } from './components/library-books/formdetails
     ReadComponent,
     FormsearchbookComponent,
     FormaddbookComponent,
-    FormDetailsBookComponent
+    FormDetailsBookComponent,
+    FormlendbookComponent
   ],
   imports: [
     BrowserModule,
