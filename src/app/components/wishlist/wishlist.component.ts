@@ -16,6 +16,7 @@ export class WishlistComponent implements OnInit {
   constructor(private listadesejosService: ListadesejosService) { }
 
   ngOnInit() {
+    // console.log(data);
     this.listadesejosService.getListaDesejos()
       .subscribe(data => this.listaDesejos = data);
   }
