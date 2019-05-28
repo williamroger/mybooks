@@ -11,6 +11,6 @@ export class LibrarybooksService {
   constructor(private http: HttpClient) { }
 
   getLibraryBooks() {
-    return this.http.get<Book[]>(`${MYBOOKS_API}/biblioteca`);
+    return this.http.get<Book[]>(`${MYBOOKS_API}/biblioteca/livros`);
   }
 }

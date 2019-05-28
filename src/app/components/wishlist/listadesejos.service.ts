@@ -3,7 +3,6 @@ import { HttpClient } from '@angular/common/http';
 import { MYBOOKS_API } from 'src/app/app.api';
 import { Book } from '../livro/book.model';
 
-
 @Injectable({
   providedIn: 'root'
 })
