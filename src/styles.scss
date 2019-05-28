@@ -8,3 +8,19 @@
 body {
   background-color: $background-primary;
 }
+
+.header-tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 35px;
+  border-bottom: 2px solid $background-card;
+  padding-bottom: 10px;
+
+  &__titulo {
+    color: $color-secondary;
+    margin-bottom: 0;
+    font-size: 1.500em;
+  }
+}
