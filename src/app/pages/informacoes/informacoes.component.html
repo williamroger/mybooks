@@ -1,0 +1,17 @@
+<h2>Informações</h2>
+
+<h2>Estou Lendo</h2>
+
+<div class="row">
+    <div class="col-6 mb-4" *ngFor="let livro of livrosEmprestados">
+        <app-livro [livro]="livro"></app-livro>
+    </div>
+</div>
+
+<h2>Emprestados</h2>
+
+<div class="row">
+    <div class="col-6 mb-4" *ngFor="let livro of livrosEmprestados">
+        <app-livro [livro]="livro"></app-livro>
+    </div>
+</div>

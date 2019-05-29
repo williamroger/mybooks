@@ -4,35 +4,33 @@ import { NgModule } from '@angular/core';
 
 import { AngularFontAwesomeModule } from 'angular-font-awesome';
 import { AppComponent } from './app.component';
-import { HeaderMenuComponent } from './components/header-menu/header-menu.component';
-import { UserBoxComponent } from './components/header-menu/user-box/user-box.component';
+import { MenuTopoComponent } from './components/menu-topo/menu-topo.component';
+import { MenuUsuarioComponent } from './components/menu-usuario/menuusuario.component';
 import { MenuPrincipalComponent } from './components/menu-principal/menu-principal.component';
-import { HeaderTabComponent } from './components/header-tab/header-tab.component';
 import { LivroComponent } from './components/livro/livro.component';
-import { WishlistComponent } from './components/wishlist/wishlist.component';
-import { LibraryBooksComponent } from './components/library-books/library-books.component';
-import { InformationComponent } from './components/information/information.component';
-import { ReadComponent } from './components/read/read.component';
+import { ListaDeDesejosComponent } from './pages/listadedesejos/listadedesejos.component';
+import { BibliotecaComponent } from './pages/biblioteca/biblioteca.component';
+import { InformacoesComponent } from './pages/informacoes/informacoes.component';
+import { LidosComponent } from './pages/lidos/lidos.component';
 import { routing } from './app.routing';
-import { ListadesejosService } from './components/wishlist/listadesejos.service';
-import { LibrarybooksService } from './components/library-books/librarybooks.service';
-import { FormsearchbookComponent } from './components/wishlist/formsearchbook/formsearchbook.component';
-import { FormaddbookComponent } from './components/wishlist/formaddbook/formaddbook.component';
-import { FormDetailsBookComponent } from './components/library-books/formdetailsbook/formdetailsbook.component';
-import { FormlendbookComponent } from './components/library-books/formlendbook/formlendbook.component';
+import { ListadesejosService } from './providers/listadesejos.service';
+import { BibliotecaService } from './providers/biblioteca.service';
+import { FormsearchbookComponent } from './components/formsearchbook/formsearchbook.component';
+import { FormaddbookComponent } from './components/formaddbook/formaddbook.component';
+import { FormDetailsBookComponent } from './components/formdetailsbook/formdetailsbook.component';
+import { FormlendbookComponent } from './components/formlendbook/formlendbook.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderMenuComponent,
-    UserBoxComponent,
+    MenuTopoComponent,
+    MenuUsuarioComponent,
     MenuPrincipalComponent,
-    HeaderTabComponent,
     LivroComponent,
-    WishlistComponent,
-    LibraryBooksComponent,
-    InformationComponent,
-    ReadComponent,
+    ListaDeDesejosComponent,
+    BibliotecaComponent,
+    InformacoesComponent,
+    LidosComponent,
     FormsearchbookComponent,
     FormaddbookComponent,
     FormDetailsBookComponent,
@@ -44,7 +42,7 @@ import { FormlendbookComponent } from './components/library-books/formlendbook/f
     HttpClientModule,
     AngularFontAwesomeModule
   ],
-  providers: [ListadesejosService, LibrarybooksService],
+  providers: [ListadesejosService, BibliotecaService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

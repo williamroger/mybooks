@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-user-box',
-  templateUrl: './user-box.component.html',
-  styleUrls: ['./user-box.component.scss']
+  selector: 'app-menu-usuario',
+  templateUrl: './menu-usuario.component.html',
+  styleUrls: ['./menu-usuario.component.scss']
 })
-export class UserBoxComponent implements OnInit {
-  userName = "William Roger";
+export class MenuUsuarioComponent implements OnInit {
+  nomeUsuario = "William Roger";
   iconpath = 'assets/images/arrow-bottom.svg';
   toggleUserOption = false;
 

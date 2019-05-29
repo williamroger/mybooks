@@ -1,16 +1,16 @@
 import { Routes, RouterModule } from '@angular/router';
 import { ModuleWithProviders } from '@angular/core';
 
-import { WishlistComponent } from './components/wishlist/wishlist.component';
-import { LibraryBooksComponent } from './components/library-books/library-books.component';
-import { InformationComponent } from './components/information/information.component';
-import { ReadComponent } from './components/read/read.component';
+import { ListaDeDesejosComponent } from './pages/listadedesejos/listadedesejos.component';
+import { BibliotecaComponent } from './pages/biblioteca/biblioteca.component';
+import { InformacoesComponent } from './pages/informacoes/informacoes.component';
+import { LidosComponent } from './pages/lidos/lidos.component';
 
 const APP_ROUTES: Routes = [
-    {path: 'listadedesejos', component: WishlistComponent},
-    {path: 'biblioteca', component: LibraryBooksComponent},
-    {path: 'informacoes', component: InformationComponent},
-    {path: 'lidos', component: ReadComponent}
+    {path: 'listadedesejos', component: ListaDeDesejosComponent},
+    {path: 'biblioteca', component: BibliotecaComponent},
+    {path: 'informacoes', component: InformacoesComponent},
+    {path: 'lidos', component: LidosComponent}
 ];
 
 export const routing: ModuleWithProviders = RouterModule.forRoot(APP_ROUTES);

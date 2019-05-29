@@ -1,6 +1,6 @@
 @import "../../../assets/scss/variables";
 
-.menu-principal{
+.menu-pages{
   ul {
     display: flex;
     justify-content: space-between;
@@ -30,7 +30,7 @@
     }
   }
 
-  .item-ativo {
+  .item-active {
     background-color: $color-main;
     color: #fff;
   }
