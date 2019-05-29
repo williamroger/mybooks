@@ -6,38 +6,44 @@
         <a href="#" class="form-ui__button-close"><fa name="close" class="icon"></fa></a>
       </div>
     </div>
-    <div class="col-6">
+    <div class="col-12">
       <div class="form-group">
         <label for="titulo">Título:</label>
         <input type="text" name="titulo" class="form-control form-ui__input" required autocomplete="off">
         <small class="form-text form-ui__message">Você precisa informar o título do livro.</small>
       </div>
     </div>
-    <div class="col-6">
+  </div>
+  <div class="row">
+    <div class="col-10">
       <div class="form-group">
-        <label for="autor">Autor:</label>
+        <label for="autor">Autor(es):</label>
         <input type="text" name="autor" id="autor" class="form-control form-ui__input" required autocomplete="off">
         <small class="form-text form-ui__message">Você precisa informar o autor do livro.</small>
       </div>
     </div>
-  </div>
-  <div class="row">
-    <div class="col-3">
+    <div class="col-2">
       <div class="form-group">
         <label for="edicao">Edição:</label>
         <input type="text" name="edicao" id="edicao" class="form-control form-ui__input" autocomplete="off">
       </div>
     </div>
-    <div class="col-3">
+    <div class="col-5">
       <div class="form-group">
         <label for="editora">Editora:</label>
         <input type="text" name="editora" id="editora" class="form-control form-ui__input" autocomplete="off">
       </div>
     </div>
-    <div class="col-6">
+    <div class="col-5">
       <div class="form-group">
-        <label for="isbn">ISBN:</label>
-        <input type="text" name="isbn" id="isbn" class="form-control form-ui__input" autocomplete="off">
+        <label for="indicacao">Indicação:</label>
+        <input type="text" name="indicacao" id="indicacao" class="form-control form-ui__input" autocomplete="off">
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="form-group">
+        <label for="isbn">Preço:</label>
+        <input type="text" name="preco" id="isbn" class="form-control form-ui__input" autocomplete="off">
       </div>
     </div>
     <div class="col-12">
@@ -55,14 +61,14 @@
   </div>
   <div class="row justify-content-beetwen">
     <div class="col-6">
-      <div class="form-group">
-        <label for="indicacao">Indicação:</label>
-        <input type="text" name="indicacao" id="indicacao" class="form-control form-ui__input" autocomplete="off">
+      <div class="form-group form-check pt-4">
+        <input type="checkbox" name="lido" class="form-check-input" id="lido">
+        <label for="lido" class="form-check-label">Marcar este livro como Lido?</label>
       </div>
     </div>
-    <div class="col-6 ">
+    <div class="col-6">
       <label class="d-block">&nbsp;</label>
-      <button type="submit" class="button-primary px-5 pull-right">Adicionar a Lista</button>
+      <button type="submit" class="button-primary px-5 pull-right">Adicionar a Biblioteca</button>
     </div>
   </div>
 </form>

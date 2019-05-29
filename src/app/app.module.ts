@@ -16,7 +16,7 @@ import { routing } from './app.routing';
 import { ListadesejosService } from './providers/listadesejos.service';
 import { BibliotecaService } from './providers/biblioteca.service';
 import { FormsearchbookComponent } from './components/formsearchbook/formsearchbook.component';
-import { FormaddbookComponent } from './components/formaddbook/formaddbook.component';
+import { FormAdicionarLivroComponent } from './components/form-adicionar-livro/form-adicionar-livro.component';
 import { FormDetailsBookComponent } from './components/formdetailsbook/formdetailsbook.component';
 import { FormlendbookComponent } from './components/formlendbook/formlendbook.component';
 
@@ -32,7 +32,7 @@ import { FormlendbookComponent } from './components/formlendbook/formlendbook.co
     InformacoesComponent,
     LidosComponent,
     FormsearchbookComponent,
-    FormaddbookComponent,
+    FormAdicionarLivroComponent,
     FormDetailsBookComponent,
     FormlendbookComponent
   ],
