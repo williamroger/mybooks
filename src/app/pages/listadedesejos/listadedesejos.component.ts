@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Book } from '../../components/livro/livro.model';
+import { Livro } from '../../components/livro/livro.model';
 import { ListadesejosService } from '../../providers/listadesejos.service';
 
 @Component({
@@ -9,7 +9,7 @@ import { ListadesejosService } from '../../providers/listadesejos.service';
 })
 export class ListaDeDesejosComponent implements OnInit {
 
-  listaDesejos: Book[];
+  listaDesejos: Livro[];
   informacoesListaDeDesejos: string = "Você tem 145 livros em sua Lista de Desejos";
   textoBotao: string = "Adicionar novo livro";
 
