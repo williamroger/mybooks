@@ -13,4 +13,8 @@ export class BibliotecaService {
   getBiblioteca() {
     return this.http.get<Livro[]>(`${MYBOOKS_API}/biblioteca/livros`);
   }
+
+  insertLivro(livro: Livro) {
+    return this.http.post<any>(`${MYBOOKS_API}/biblioteca/adicionarlivro`, livro);
+  }
 }

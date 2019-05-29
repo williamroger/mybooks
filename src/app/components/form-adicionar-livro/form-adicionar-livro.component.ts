@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { BibliotecaService } from 'src/app/providers/biblioteca.service';
 
 @Component({
   selector: 'app-form-adicionar-livro',
@@ -6,10 +8,34 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./form-adicionar-livro.component.scss']
 })
 export class FormAdicionarLivroComponent implements OnInit {
+  formulario: FormGroup;
 
-  constructor() { }
+  constructor(private bibliotecaService: BibliotecaService, private formBuilder: FormBuilder) { }
 
   ngOnInit() {
+    this.configurarFormulario();
   }
 
+  configurarFormulario() {
+    this.formulario = this.formBuilder.group({
+      titulo: [null, Validators.required],
+      autor: [null, Validators.required],
+      edicao: [null],
+      indicacao: [null],
+      preco: [null],
+      imagem: [null],
+      descricao: [null],
+      biblioteca: [null, Validators.required],
+      lido: [null],
+      usuario_id: [null, Validators.required],
+      editora: [null],
+    });
+  }
+
+  novoLivroBiblioteca() {
+    this.bibliotecaService.insertLivro(this.formulario.value).subscribe(resposta => {
+      this.formulario.reset();
+      console.log('Cadastrado com sucesso');
+    });
+  }
 }

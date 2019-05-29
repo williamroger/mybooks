@@ -3,8 +3,7 @@
   <a href="#" class="button-primary px-4">{{textoBotao}}</a>
 </div>
 <app-form-adicionar-livro></app-form-adicionar-livro>
-<!-- <app-formdetailsbook></app-formdetailsbook> -->
-<!-- <app-formlendbook></app-formlendbook> -->
+
 <div class="row">
   <div class="col-6 mb-4" *ngFor="let livro of livrosBiblioteca">
     <app-livro [livro]="livro"></app-livro>
