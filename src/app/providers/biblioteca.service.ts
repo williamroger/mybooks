@@ -7,15 +7,6 @@ import { Livro } from '../components/livro/livro.model';
   providedIn: 'root'
 })
 export class BibliotecaService {
-  private _httpOptions = {
-    headers: new HttpHeaders({
-      'Content-Type': 'application/json',
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, POST, OPTIONS, PUT, PATCH, DELETE',
-      'Access-Control-Allow-Headers':
-        'Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers'
-    })
-  };
 
   constructor(private http: HttpClient) { }
 
@@ -24,7 +15,6 @@ export class BibliotecaService {
   }
 
   insertLivro(livro: Livro) {
-    console.log(livro);
-    return this.http.post<any>(`${MYBOOKS_API}/biblioteca/adicionarlivro`, livro, this._httpOptions);
+    return this.http.post<any>(`/api/biblioteca/adicionarlivro`, livro);
   }
 }

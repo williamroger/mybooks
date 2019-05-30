@@ -1,6 +1,18 @@
 <form method="POST" (ngSubmit)="novoLivroBiblioteca()" [formGroup]="formulario" class="form-ui">
-  <input type="hidden" name="usuario_id" formControlName="usuario_id">
-  <input type="hidden" name="biblioteca" formControlName="biblioteca" value="1">
+  <div class="row">
+    <div class="col-2">
+      <div class="form-group">
+        <label for="titulo">ID Usuário:</label>
+        <input type="text" name="usuario_id" formControlName="usuario_id" class="form-control form-ui__input" autocomplete="off">
+      </div>
+    </div>
+    <div class="col-2">
+      <div class="form-group">
+        <label for="titulo">Biblioteca:</label>
+        <input type="text" name="biblioteca" formControlName="biblioteca" class="form-control form-ui__input" autocomplete="off">
+      </div>
+    </div>
+  </div>
   <div class="row">
     <div class="col-12">
       <div class="form-ui__header">
