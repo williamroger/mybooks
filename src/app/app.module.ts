@@ -20,6 +20,9 @@ import { FormsearchbookComponent } from './components/formsearchbook/formsearchb
 import { FormAdicionarLivroComponent } from './components/form-adicionar-livro/form-adicionar-livro.component';
 import { FormDetailsBookComponent } from './components/formdetailsbook/formdetailsbook.component';
 import { FormlendbookComponent } from './components/formlendbook/formlendbook.component';
+import { LoginComponent } from './pages/login/login.component';
+import { CadastroComponent } from './pages/cadastro/cadastro.component';
+import { Error404Component } from './pages/error404/error404.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { FormlendbookComponent } from './components/formlendbook/formlendbook.co
     FormsearchbookComponent,
     FormAdicionarLivroComponent,
     FormDetailsBookComponent,
-    FormlendbookComponent
+    FormlendbookComponent,
+    LoginComponent,
+    CadastroComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,
