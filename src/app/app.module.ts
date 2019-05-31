@@ -23,6 +23,7 @@ import { FormlendbookComponent } from './components/formlendbook/formlendbook.co
 import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { Error404Component } from './pages/error404/error404.component';
+import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +42,8 @@ import { Error404Component } from './pages/error404/error404.component';
     FormlendbookComponent,
     LoginComponent,
     CadastroComponent,
-    Error404Component
+    Error404Component,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
