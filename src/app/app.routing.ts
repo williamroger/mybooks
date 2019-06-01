@@ -8,12 +8,10 @@ import { LidosComponent } from './pages/lidos/lidos.component';
 import { LoginComponent } from './pages/login/login.component';
 import { CadastroComponent } from './pages/cadastro/cadastro.component';
 import { Error404Component } from './pages/error404/error404.component';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 const APP_ROUTES: Routes = [
     {path: '', redirectTo: 'login', pathMatch: 'full'},
     {path: 'login', component: LoginComponent },
-    {path: 'dashboard', component: DashboardComponent},
     {path: 'cadastro', component: CadastroComponent},
     {path: 'listadedesejos', component: ListaDeDesejosComponent},
     {path: 'biblioteca', component: BibliotecaComponent},

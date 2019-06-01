@@ -1,0 +1,33 @@
+@import "../../../assets/scss/variables";
+
+.login {
+  position: relative;
+  top: 25%;
+
+  &__header {
+    padding: 2rem 0;
+    text-align: center;
+
+    img {
+      width: 250px;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: $color-secondary;
+      margin-bottom: 0;
+    }
+  }
+
+  &__buttons {
+    padding: 1rem 0 2rem 0;
+    text-align: center;
+
+    p {
+      font-size: 1.2rem;
+      color: $color-secondary;
+      margin-bottom: 0;
+    }
+  }
+}

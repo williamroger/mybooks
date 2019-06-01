@@ -7,6 +7,7 @@ import { FormGroup, FormBuilder, Validators } from '@angular/forms';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements OnInit {
+  logopath = 'assets/images/mybooks.png';
   formLogin: FormGroup;
 
   constructor(private formBuilder: FormBuilder) { }

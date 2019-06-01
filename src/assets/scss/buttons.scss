@@ -1,4 +1,5 @@
 .button-primary {
+  display: inline-block;
   background-color: $color-main;
   color: white;
   border: 0;
@@ -29,8 +30,10 @@
 }
 
 .button-outline {
+  display: inline-block;
   text-transform: uppercase;
-  color: #fff;
+  color: #fff !important;
+  cursor: pointer;
   background: transparent;
   font-size: .9rem;
   border: 1px solid $color-main;
