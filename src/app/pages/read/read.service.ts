@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { MYBOOKS_API } from 'src/app/app.api';
-import { Livro } from '../../components/livro/livro.model';
+import { Livro } from '../../models/livro.model';
 
 @Injectable({
   providedIn: 'root'

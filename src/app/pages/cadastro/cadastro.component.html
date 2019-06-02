@@ -2,7 +2,7 @@
   <div class="row justify-content-center">
     <div class="col-8">
       <div class="register">
-        <form method="POST" (submit)="salvarNovoUsuario()" [formGroup]="formNovoUsuario" class="form-ui">
+        <form method="POST" (submit)="novoUsuario()" [formGroup]="formNovoUsuario" class="form-ui">
           <div class="row justify-content-center">
             <div class="col-12">
               <div class="register__header">
@@ -20,7 +20,7 @@
             <div class="col-12">
               <div class="form-group">
                 <label for="email">*Email:</label>
-                <input type="password" formControlName="email" id="email" class="form-control form-ui__input">
+                <input type="text" formControlName="email" id="email" class="form-control form-ui__input">
                 <small class="form-text form-ui__message d-none">Você precisa informar seu email.</small>
               </div>
             </div>

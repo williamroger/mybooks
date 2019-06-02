@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { MYBOOKS_API } from 'src/app/app.api';
-import { Livro } from '../components/livro/livro.model';
+import { Livro } from '../models/livro.model';
 
 @Injectable({
   providedIn: 'root'
@@ -15,6 +15,6 @@ export class BibliotecaService {
   }
 
   insertLivro(livro: Livro) {
-    return this.http.post<any>(`/api/biblioteca/adicionarlivro`, livro);
+    return this.http.post<any>('/api/biblioteca/adicionarlivro', livro);
   }
 }

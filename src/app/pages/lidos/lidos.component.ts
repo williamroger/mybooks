@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Livro } from '../../components/livro/livro.model';
+import { Livro } from '../../models/livro.model';
 import {LidosService} from '../../providers/lidos.service';
 
 @Component({

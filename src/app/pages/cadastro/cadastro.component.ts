@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { UsuariosService } from 'src/app/providers/usuarios.service';
 
 @Component({
   selector: 'app-cadastro',
@@ -10,7 +11,7 @@ export class CadastroComponent implements OnInit {
   logopath = 'assets/images/mybooks.png';
   formNovoUsuario: FormGroup;
 
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(private usuarioService: UsuariosService, private formBuilder: FormBuilder) { }
 
   ngOnInit() {
     this.configurarFormCadastro();
@@ -25,7 +26,10 @@ export class CadastroComponent implements OnInit {
     });
   }
 
-  salvarNovoUsuario(event) {
-    console.log(event);
+  novoUsuario() {
+    this.usuarioService.insertUsuario(this.formNovoUsuario.value).subscribe(resposta => {
+      this.formNovoUsuario.reset();
+      console.log('Usuario cadastrado com sucesso!');
+    });
   }
 }
