@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-cadastro',
@@ -7,10 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CadastroComponent implements OnInit {
   logopath = 'assets/images/mybooks.png';
+  formNovoUsuario: FormGroup;
 
-  constructor() { }
+  constructor(private formBuilder: FormBuilder) { }
 
   ngOnInit() {
+    this.configurarFormCadastro();
   }
 
+  configurarFormCadastro() {
+    this.formNovoUsuario = this.formBuilder.group({
+      nome: [null, Validators.required],
+      email: [null, Validators.required],
+      login: [null, Validators.required],
+      senha: [null, Validators.required]
+    });
+  }
+
+  salvarNovoUsuario(event) {
+    console.log(event);
+  }
 }

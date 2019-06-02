@@ -23,7 +23,7 @@ export class LoginComponent implements OnInit {
     });
   }
 
-  loginUser(event) {
+  loginUsuario(event) {
     console.log(event);
   }
 }
