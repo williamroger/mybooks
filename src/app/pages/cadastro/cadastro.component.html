@@ -1,3 +1,33 @@
-<p>
-  cadastro works!
-</p>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-8">
+      <div class="register">
+        <form method="POST" (submit)="loginUser()" [formGroup]="formLogin" class="form-ui">
+          <div class="row justify-content-center">
+            <div class="col-6">
+              <div class="login__header">
+                <img src="{{logopath}}">
+                <p>Gerencie seus livros de maneira fácil.</p>
+              </div>
+              <div class="form-group">
+                <label for="Login">Login:</label>
+                <input type="text" name="login"  formControlName="login" id="login" class="form-control form-ui__input">
+                <small class="form-text form-ui__message d-none">Você precisa informar seu login.</small>
+              </div>
+              <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha"  formControlName="senha" id="senha" class="form-control form-ui__input">
+                <small class="form-text form-ui__message d-none">Você precisa informar sua senha.</small>
+              </div>
+              <div class="login__buttons">
+                <button type="submit" class="button-primary w-100">Entrar</button>
+                <p class="mt-5 mb-3">Ainda não tem uma conta?</p>
+                <a routerLink="/cadastro" class="button-outline w-100 py-2">Cadastre-se</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
