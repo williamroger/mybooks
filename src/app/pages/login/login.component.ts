@@ -24,14 +24,15 @@ export class LoginComponent implements OnInit {
       senha: [null, Validators.required]
     });
   }
-  // Link
-  // https://medium.com/@danilodev.silva/angular-5-eventemitter-aprendendo-a-usar-input-e-output-property-56df9158de6b
-  // https://www.youtube.com/watch?v=bOoddUeklZY&list=PLGxZ4Rq3BOBoSRcKWEdQACbUCNWLczg2G&index=64
-  // Descompactor P7zip
+
   loginUsuario() {
-    this.usuarioService.validarUsuario(this.formLogin.value).subscribe(resposta => {
-      this.formLogin.reset();
-      console.log(data)
+    this.usuarioService.validarUsuario(this.formLogin.value).subscribe(data => {
+      if (data.success) {
+        this.formLogin.reset();
+        alert(data.message);
+      } else {
+        alert(data.message);
+      }
     });
   }
 }
