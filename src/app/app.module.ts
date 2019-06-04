@@ -16,6 +16,7 @@ import { LidosComponent } from './pages/lidos/lidos.component';
 import { routing } from './app.routing';
 import { ListadesejosService } from './providers/listadesejos.service';
 import { BibliotecaService } from './providers/biblioteca.service';
+import { UsuariosService } from './providers/usuarios.service';
 import { FormsearchbookComponent } from './components/formsearchbook/formsearchbook.component';
 import { FormAdicionarLivroComponent } from './components/form-adicionar-livro/form-adicionar-livro.component';
 import { FormDetailsBookComponent } from './components/formdetailsbook/formdetailsbook.component';
@@ -52,7 +53,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     AngularFontAwesomeModule,
     ReactiveFormsModule
   ],
-  providers: [ListadesejosService, BibliotecaService],
+  providers: [ListadesejosService, BibliotecaService, UsuariosService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
