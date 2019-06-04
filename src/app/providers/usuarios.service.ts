@@ -12,4 +12,8 @@ export class UsuariosService {
   insertUsuario(usuario: Usuario) {
     return this.http.post<any>('/api/usuario/novousuario', usuario);
   }
+
+  validarUsuario(usuario: Usuario) {
+    return this.http.post<any>('/api/auth', usuario);
+  }
 }
