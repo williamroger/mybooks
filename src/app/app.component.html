@@ -1,5 +1,5 @@
 <div class="container">
-  <app-menu-topo></app-menu-topo>
-  <app-menu-principal></app-menu-principal>
+  <app-menu-topo *ngIf="mostrarMenu"></app-menu-topo>
+  <app-menu-principal *ngIf="mostrarMenu"></app-menu-principal>
   <router-outlet></router-outlet>
 </div>
