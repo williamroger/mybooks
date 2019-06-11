@@ -25,7 +25,7 @@ export class FormAdicionarLivroComponent implements OnInit {
       preco: [null],
       imagem: [null],
       descricao: [null],
-      biblioteca: [null, Validators.required],
+      biblioteca: [1],
       lido: [0],
       usuario_id: [null, Validators.required],
       editora: [null],
